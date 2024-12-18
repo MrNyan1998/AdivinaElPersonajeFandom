@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "447365235492",
+    "firebase_url": "https://adivinaelpersonajefandom-default-rtdb.firebaseio.com",
+    "project_id": "adivinaelpersonajefandom",
+    "storage_bucket": "adivinaelpersonajefandom.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:447365235492:android:07e5b9c7ef60a35b1d69b1",
+        "android_client_info": {
+          "package_name": "com.mrssmiau.firebase.adivinaelpersonajefandom"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyCsNelM3l8IvdxFxvh7hpMK_o-4Nm4iU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
