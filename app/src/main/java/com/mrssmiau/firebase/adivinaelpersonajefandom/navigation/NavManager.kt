@@ -10,6 +10,7 @@ import com.mrssmiau.firebase.adivinaelpersonajefandom.juego.Menu
 import com.mrssmiau.firebase.adivinaelpersonajefandom.juego.MenuAdmin
 import com.mrssmiau.firebase.adivinaelpersonajefandom.juego.MenuPrincipal
 import com.mrssmiau.firebase.adivinaelpersonajefandom.sesion.Inicio
+import com.mrssmiau.firebase.adivinaelpersonajefandom.sesion.Registro
 
 @Composable
 fun NavManager(ruta: String) {
@@ -32,6 +33,9 @@ fun NavManager(ruta: String) {
         }
         composable("Juego"){
             Juego(navController)
+        }
+        composable("Registro"){
+            Registro(navController)
         }
     }
 }

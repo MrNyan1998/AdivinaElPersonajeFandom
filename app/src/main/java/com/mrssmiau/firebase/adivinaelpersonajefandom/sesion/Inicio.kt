@@ -22,25 +22,6 @@ fun Inicio(navController: NavController) {
     val tabs = listOf("Iniciar Sesión", "Registrarse")
 
     Column {
-        TabRow(
-            selectedTabIndex = selectedTab,
-            contentColor = Color.Black,
-            containerColor = Color.LightGray,
-            indicator = { tabPosition ->
-                TabRowDefaults.Indicator(
-                    Modifier.tabIndicatorOffset(
-                        tabPosition[selectedTab]
-                    )
-                )
-            })
-        {
-            tabs.forEachIndexed { index, title ->
-                Tab(
-                    selected = selectedTab == index,
-                    onClick = { selectedTab = index },
-                    text = { Text(text = title) })
-            }
-        }
         when(selectedTab){
             0 -> InicioSesion(navController)
             1 -> Registro(navController)
